@@ -10,9 +10,4 @@ class Application @Inject() (val messagesApi: MessagesApi) extends api.ApiContro
     ok("The API is ready")
   }
 
-  // Auxiliar to check the FakeDB information. It's only for testing purpose. You should remove it.
-  def fakeDB = Action { implicit request =>
-    Ok(views.html.fakeDB())
-  }
-
 }
