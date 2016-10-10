@@ -1,3 +1,5 @@
+# PlayGround is REST API with Play based on a template below
+
 # Play API REST Template [Play 2.5 - Scala]
 
 Template to show how to implement an API using Play Framework.
